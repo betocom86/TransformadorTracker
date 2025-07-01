@@ -117,8 +117,8 @@ export default function Sidebar() {
       <div className="flex items-center justify-between p-4 border-b border-gray-200">
         {!isCollapsed && (
           <div>
-            <h2 className="text-lg font-semibold text-gray-900">PROSECU</h2>
-            <p className="text-xs text-gray-500">GC Electric</p>
+            <h2 className="text-lg font-semibold text-blue-700">GC ELECTRICAL</h2>
+            <p className="text-xs text-blue-600">SOLUTIONS, LLC</p>
           </div>
         )}
         <Button
@@ -177,9 +177,9 @@ export default function Sidebar() {
       {/* Footer */}
       <div className="p-4 border-t border-gray-200">
         {!isCollapsed && (
-          <div className="text-xs text-gray-500 text-center">
-            <p>Sistema de Gestión</p>
-            <p>Versión 2.0</p>
+          <div className="text-xs text-blue-600 text-center">
+            <p>Sistema de Gestión de Personal</p>
+            <p>GC Electrical Solutions v2.0</p>
           </div>
         )}
       </div>

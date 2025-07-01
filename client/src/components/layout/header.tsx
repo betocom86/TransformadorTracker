@@ -13,7 +13,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useAuth } from "@/hooks/useAuth";
 
 export default function Header() {
-  const { user, logout, isLoggingOut } = useAuth();
+  const { user, logout } = useAuth();
   const { data: alerts = [] } = useQuery({
     queryKey: ['/api/alerts?active=true'],
   });
